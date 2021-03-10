@@ -21,7 +21,7 @@ namespace DZ_NP
                 socket.Listen(10);
 
                 Console.WriteLine("Сервер запущен. Ожидание подключений...");
-                while (true)
+                while (true)    
                 {
                     Socket socket1 = socket.Accept();
                     StringBuilder builder = new StringBuilder();
